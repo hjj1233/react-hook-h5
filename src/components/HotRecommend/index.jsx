@@ -1,5 +1,5 @@
 import React from 'react'
-import { Divider, Grid } from 'antd-mobile'
+import { Divider, Grid, Rate } from 'antd-mobile'
 import HotRecomendBox from './HotRecommendStyle'
 import { FireFill } from 'antd-mobile-icons'
 
@@ -30,7 +30,11 @@ export default function HotRecommend() {
                 </div>
                 <div>
                   <span>
-                    好评： <span className="goodstyle">9.8</span>
+                    好评：{' '}
+                    <span className="goodstyle">
+                      {' '}
+                      <Rate readOnly value={4} />
+                    </span>
                   </span>
                 </div>
               </div>
@@ -56,7 +60,11 @@ export default function HotRecommend() {
                 </div>
                 <div>
                   <span>
-                    好评： <span className="goodstyle">9.8</span>
+                    好评：{' '}
+                    <span className="goodstyle">
+                      {' '}
+                      <Rate readOnly value={4} />
+                    </span>
                   </span>
                 </div>
               </div>
@@ -82,7 +90,11 @@ export default function HotRecommend() {
                 </div>
                 <div>
                   <span>
-                    好评： <span className="goodstyle">9.8</span>
+                    好评：{' '}
+                    <span className="goodstyle">
+                      {' '}
+                      <Rate readOnly value={4} />
+                    </span>
                   </span>
                 </div>
               </div>
@@ -108,7 +120,11 @@ export default function HotRecommend() {
                 </div>
                 <div>
                   <span>
-                    好评： <span className="goodstyle">9.8</span>
+                    好评：{' '}
+                    <span className="goodstyle">
+                      {' '}
+                      <Rate readOnly value={4} />
+                    </span>
                   </span>
                 </div>
               </div>
@@ -134,7 +150,10 @@ export default function HotRecommend() {
                 </div>
                 <div>
                   <span>
-                    好评： <span className="goodstyle">9.8</span>
+                    好评：{' '}
+                    <span className="goodstyle">
+                      <Rate readOnly value={4} />
+                    </span>
                   </span>
                 </div>
               </div>

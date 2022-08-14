@@ -34,7 +34,11 @@ const HotRecomendBox = styled.div`
   .goodstyle {
     color: pink;
   }
+  .adm-rate {
+    --star-size: 12px;
+  }
 }
 `
+
 
 export default HotRecomendBox;
