@@ -10,6 +10,7 @@
     "antd-mobile": "^5.20.0",
     "antd-mobile-icons": "^0.3.0",
     "antd-mobile-v5": "npm:antd-mobile@5",
+    "axios": "^0.27.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
@@ -21,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "json-server": "json-server --watch ./db.json"
   },
   "eslintConfig": {
     "extends": [
